@@ -1,7 +1,7 @@
-export { renderGallery }
+export { renderGallery };
 
-const gallery = document.querySelector('.gallery')
-const galleryEl = document.querySelector('.gallery .a')
+const gallery = document.querySelector('.gallery');
+const galleryEl = document.querySelector('.gallery .a');
 
 function renderGallery(images) {
   const markup = images
@@ -21,7 +21,7 @@ function renderGallery(images) {
         </a>
       `
     })
-    .join('')
+    .join('');
 
-  gallery.insertAdjacentHTML('beforeend', markup)
+  gallery.insertAdjacentHTML('beforeend', markup);
 }
